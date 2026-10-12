@@ -1,7 +1,6 @@
-```bash
 #!/bin/bash
 
-source ./config.cfg
+source ./configuration.conf
 
 echo "================================"
 echo " Contrôle du serveur : $SERVEUR"
@@ -22,4 +21,3 @@ uptime -p
 echo ""
 echo "Seuil disque configuré : $SEUIL_DISQUE %"
 echo "Seuil mémoire configuré : $SEUIL_MEMOIRE %"
-```
